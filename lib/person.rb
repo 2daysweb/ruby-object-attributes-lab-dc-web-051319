@@ -1,8 +1,9 @@
 class Person
   
-  attr_reader: name
   
 	def initialize(name, job)
+	  @name = name 
+	  @job = job
 	end 
 	
 	def name=(new_name)
