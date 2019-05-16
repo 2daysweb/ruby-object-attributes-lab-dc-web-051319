@@ -1,7 +1,7 @@
 class Person
   
   
-	def initialize
+	def initialize(name)
 	end 
 	
 	def name=(new_name)
